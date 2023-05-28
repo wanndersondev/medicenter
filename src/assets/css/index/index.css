@@ -1,0 +1,8 @@
+/* Importanto as configurações globais de CSS */
+@import '../global/global.css';
+
+/* Seções que tem na página */
+@import './sections/header.css';
+@import './sections/banner.css';
+@import './sections/events.css';
+@import './sections/footer.css';
