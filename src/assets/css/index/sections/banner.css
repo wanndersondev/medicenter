@@ -1,0 +1,38 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3) url(/src/assets/img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: calc(100vh - 80px);
+}
+.banner__doctor, .headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.banner__doctor img {
+    width: 378px;
+}
+.headline h1 {
+    font-size: 63px;
+    color: var(--color-principal);
+    font-family: var(--font);
+    text-shadow: 3px 3px 3px #0000004e;
+    text-align: center;
+}
+@media (max-width: 1075px){
+    .headline h1 {
+        font-size: 60px;
+    }
+}
+@media (max-width: 845px){
+    .headline h1 {
+        font-size: 52px;
+    }
+    .banner__doctor img {
+        max-width: 92%;
+    }
+}
